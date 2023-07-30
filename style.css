@@ -1,0 +1,46 @@
+body {
+  font-size: 24px;
+  background-color: #333333;
+  color: whitesmoke;
+}
+
+.main {
+    display: grid;
+    grid-gap: 15px;
+    margin-top: 40px;
+    grid-template-columns: 1fr;
+}
+
+#editor, #preview {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgb(168, 119, 206);
+  color: black;
+  box-shadow: 0px 0px 3px 3px royalblue; 
+}
+
+#editor {
+  min-height: 300px;
+}
+
+img {
+  border-radius: 50%;
+  width:100px;
+}
+
+pre, code {
+  background-color: whitesmoke;
+  color: black;
+  
+}
+
+pre {
+    padding: 10px;
+    
+}
+
+@media(min-width: 992px){
+  .main {
+     grid-template-columns: 1fr 1fr;
+  }
+}
